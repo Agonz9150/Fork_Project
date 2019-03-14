@@ -1,5 +1,6 @@
+#Alexis Gonzalez
 CC = gcc
-Program = project.c functions.c -g
+Program = SharedProcessMain.c SharedProcessFunctions.c -o SharedProcess
 
 Build:
 	$(CC) $(Program)
